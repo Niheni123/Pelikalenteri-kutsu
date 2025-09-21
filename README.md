@@ -9,3 +9,16 @@
 * Sovelluksessa on käyttäjäsivut, jotka näyttävät jokaisesta käyttäjästä tilastoja ja käyttäjän lisäämät pelikutsut ja omat ilmoittautumiset.
 * Käyttäjä pystyy valitsemaan pelikutsulle yhden tai useamman luokittelun (esim. mikä peli, toivottu pelaajamäärä toteutukselle, päivämäärä, kellonaika, ilmoittautumis deadline yms.)
 * Käyttäjä voi ilmoittautua pelikutsuihin. Pelikutsussa näkee ilmoittautuneet ja toteutuuko pelikutsut joihin on ilmoittautunut.
+
+Nykyisessä versiossa on etusivu, jonka kautta voi kirjautua sisään/rekisteröityä. Sovelluksesta näkee, mille käyttäjälle on kirjautunut ja voi kirjautua ulos.
+Kävijälaskuri löytyy myös /kävijät
+
+
+Aktivoi virtuaaliympäristö
+$ source venv/scripts/activate
+
+Lataa flask -kirjasto
+$ pip install flask
+
+Käynnistä sovellus
+$ flask run
